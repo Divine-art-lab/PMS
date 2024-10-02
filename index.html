@@ -7,7 +7,7 @@
     <meta name="description" content="Point De Repere. Nurturing Excellent Mind">
     <meta name="keywords" content="Point De Repere">
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css? family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css? family=Poppins|Sofia">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="PMSlogo.png">
     <script src="main.js"></script>
@@ -26,9 +26,9 @@
         </div>
         <ul id="nav">
           <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </header>
@@ -39,23 +39,26 @@
       </section>
       <div class="head-text">
         <ul>
-          <li style="color: grey;">core values</li>
-          <li style="color: red;">discipline</li>
-          <li style="color: purple;">sincerity</li>
-          <li style="color: blue;">hard work</li>
-          <li style="color: green;">integrity</li>
-          <li style="color: pink;">fear of god</li>
+          <li>core values</li>
+          <li style="color: lightblue;">discipline</li>
+          <li style="color: pink;">sincerity</li>
+          <li style="color: grey;">hard work</li>
+          <li style="color: purple;">integrity</li>
+          <li style="color: orange;">fear of god</li>
         </ul>
       </div>
       <div class="school-name">
         <h1>POINT DE REPERE</h1>
         <h2>MODERN SCHOOL</h2>
       </div>
+      <div class="greet-image">
+        <img src="FB_IMG_intro3.jpg" alt="photo" height="200" width="auto" style="border-radius: 10px; margin: auto; display: block;">
+      </div>
       <p class="Welcome">
         <b>Welcome to Point de Repère!</b>
         Where education meets excellence, we shape the leaders of tomorrow. At Point de Repère, we believe in nurturing minds to achieve brilliance and foster innovation. Every student is a point of reference, a beacon of potential ready to make a difference. Join us in our mission to cultivate excellence and inspire greatness. Your future begins here, where every mind is nurtured for success.
       </p>
-      <button type="button" class="button">Get Started</button>
+      <button type="button" class="button" onclick="document.location='#about'">Get Started</button>
       <section id="about">
         <div class="about-content">
           <h3>About Us</h3>
@@ -68,13 +71,13 @@
         <div class="mission">
           <h4>Mission Statement</h4>
           <p>
-            
+            <b>Our mission statement:</b> Point De Repere Modern School, exist to nurture excellent minds, who will be the reference point in our society through a holistic approach(concerned with the development of every person's intellectual, emotional, social, physical, artistic, creative and spiritual potentials).
           </p>
         </div>
         <div class="vision">
-          <h4>Vision Statement</h4>
+          <h4>Our Vision Statement</h4>
           <p>
-            
+            To train learners and prepare feature leaders who are Christ Centered.
           </p>
         </div>
       </section>
@@ -114,17 +117,18 @@
       </section>
       <section id="blog">
         <h3>Blogs</h3>
+        Stay Updated with our Post, insight and News From the World of PMS 
         <div class="blog-post">
           <img src="PMSlogo.png" id="author" height="30" width="auto">
           <p>Author</p><b>.</b>
           <img src="FB_IMG_post.jpg" alt="post photos" height="200" width="auto">
-          <p> <a href="">see more<img src="">...</a></p>
+          <p>On this Beautiful Friday<a href="https://www.facebook.com/100054398115877/posts/1061488025674458/">see more...</a></p>
         </div>
         <div class="blog-post">
           <img src="PMSlogo.png" id="author" height="30" width="auto">
           <p>Author</p><b>.</b>
           <img src="FB_IMG_post2.jpg" alt="post photos" height="200" width="auto">
-          <p> <a href="">see more...</a></p>
+          <p>Omo Oyo kini🤩 <a href="https://www.facebook.com/100054398115877/posts/1062236535599607/">see more...</a></p>
         </div>
       </section>
       <section id="contact">
@@ -140,7 +144,7 @@
         </div>
         <div class="contact-info">
           <i class="fa fa-phone icon"></i>
-          <p></p>
+          <p><a href="tel:+234 706 420 2500">+234 706 420 2500</a></p>
         </div>
         <h3 style="color: white;">Contact Us</h3>
         <form autocomplete="on" method="post">
@@ -158,16 +162,16 @@
       </section>
       <div class="dev">
         <div class="drop-down">
-          <h3 onclick="display()">DEVELOPER</h3>
+          <h3 onclick="display()" style="color: purple;">DEVELOPER</h3>
           <div id="drop-down-content">
             <img src="FB_IMG_ME.jpg" alt="dev img" height="150" width="auto">
-            <i class="fa fa-times icon" onclick="cancel()" style="position: fixed;"></i>
+            <i class="fa fa-spin fa-plus icon" onclick="cancel()" style="position: absolute; top: 90px; color: black;"></i>
               <h2>About the Developer</h2>
               <div class="clearfix"></div>
             <p>
               Hi! I'm <strong>Divine I.J</strong>, the creator behind this website also a student of the school. I'm passionate about coding and web development, and I believe in building user-friendly, functional websites that offer a seamless experience. With my skills in front-end and back-end technologies, I strive to deliver innovative and creative solutions.</p>
-  <a class="abt" href="https://github.com/Divine-art-lab/Portfolio-" class="btn">About Me</a>
-  <a class="hire" href="https://github.com/Divine-art-lab/Portfolio-/#contact" class="btn">Hire Me</a>
+  <a class="abt" href="https://divine-art-lab.github.io/portfolio-" class="btn">About Me</a>
+  <a class="hire" href="https://divine-art-lab.github.io/portfolio-/#contact" class="btn">Hire Me</a>
             </p>
           </div>
         </div>
@@ -176,7 +180,7 @@
     <footer>
       <p>
         Point De Repere&trade;2024. All Right Reserved.<br />
-        follow us<a href=""><i class="fa fa-facebook icon" style="color: purple;"></i></a>
+        follow us<a href="https://www.facebook.com/profile.php?id=100054398115877"><i class="fa fa-facebook icon" style="color: purple;"></i></a>
       </p>
     </footer>
   </body>
